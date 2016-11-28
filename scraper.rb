@@ -39,7 +39,7 @@ def scrape_mp(id)
     area_id, area = ['','']
   end
 
-  data = { 
+  data = {
     id: id,
     name: box.css('#cit h1').text.tidy,
     image: box.css('#mod_senter_text img/@src').text,
@@ -48,7 +48,6 @@ def scrape_mp(id)
     party: box.css('#mod_senter_text').xpath('.//p[contains(.,"mənsubiyyəti")]').text.to_s.split(/:/).last.to_s.tidy,
     term: '5',
     source: url,
-    last_seen: Date.today.to_s,
   }
   data[:image] = URI.join(url, URI.escape(data[:image])).to_s unless data[:image].to_s.empty?
   data[:party] = 'Independent' if data[:party].to_s == 'bitərəf'
