@@ -1,12 +1,11 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-require 'scraperwiki'
 require 'nokogiri'
 require 'open-uri'
-require 'colorize'
-
 require 'pry'
+require 'scraperwiki'
+
 require 'open-uri/cached'
 OpenURI::Cache.cache_path = '.cache'
 
@@ -51,7 +50,7 @@ def scrape_mp(id)
   }
   data[:image] = URI.join(url, URI.escape(data[:image])).to_s unless data[:image].to_s.empty?
   data[:party] = 'Independent' if data[:party].to_s == 'bitərəf'
-  # puts data
+  # puts data
   ScraperWiki.save_sqlite([:id, :term], data)
 end
 
