@@ -49,4 +49,5 @@ def scrape_mp(id)
   ScraperWiki.save_sqlite(%i(id term), data)
 end
 
+ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
 scrape_list('http://meclis.gov.az/?/az/deputat/')
