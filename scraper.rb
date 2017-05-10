@@ -47,7 +47,7 @@ def scrape_mp(id)
   data[:image] = URI.join(url, URI.escape(data[:image])).to_s unless data[:image].to_s.empty?
   data[:party] = 'Independent' if data[:party].to_s == 'bitərəf'
   # puts data
-  ScraperWiki.save_sqlite(%i(id term), data)
+  ScraperWiki.save_sqlite(%i[id term], data)
 end
 
 ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
