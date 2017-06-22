@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 21 Jun 2017 18:42:54 GMT
+    - Thu, 22 Jun 2017 22:10:24 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Transfer-Encoding:
@@ -30,7 +30,7 @@ response:
     Vary:
     - Accept-Encoding
     Set-Cookie:
-    - PHPSESSID=8vonj95ciamhfdi5omvd5p96b3; path=/; HttpOnly
+    - PHPSESSID=2mmpao5nblaci6fcf0lp0nvgl4; path=/; HttpOnly
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -40,4 +40,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 21 Jun 2017 18:42:54 GMT
+recorded_at: Thu, 22 Jun 2017 22:10:24 GMT
