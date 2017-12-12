@@ -20,24 +20,24 @@ response:
     Server:
     - nginx
     Date:
-    - Sun, 10 Dec 2017 23:39:01 GMT
+    - Tue, 12 Dec 2017 05:58:14 GMT
     Content-Type:
     - text/html; charset=UTF-8
-    Transfer-Encoding:
-    - chunked
     Connection:
     - keep-alive
     Vary:
     - Accept-Encoding
     Set-Cookie:
-    - PHPSESSID=21gqja9sb0sf37kkk0qu6c4od1; path=/; HttpOnly
+    - PHPSESSID=h4l0uijsskjr0et8ur4vrcg365; path=/; HttpOnly
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
     - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     Pragma:
     - no-cache
+    Content-Length:
+    - '2512'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 10 Dec 2017 23:39:02 GMT
+recorded_at: Tue, 12 Dec 2017 05:58:15 GMT
