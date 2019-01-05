@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 04 Jan 2019 13:06:32 GMT
+    - Sat, 05 Jan 2019 19:10:48 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Connection:
@@ -28,7 +28,7 @@ response:
     Vary:
     - Accept-Encoding
     Set-Cookie:
-    - PHPSESSID=g7a7ileg3vcfsr9gp80efudvm7; path=/; HttpOnly
+    - PHPSESSID=7ik6h8t598gak8tskgjrpro7g0; path=/; HttpOnly
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -40,4 +40,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 04 Jan 2019 13:06:40 GMT
+recorded_at: Sat, 05 Jan 2019 19:10:49 GMT
